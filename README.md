@@ -1,4 +1,17 @@
-# Hangman
+# THE-RIGHT-CORNER
+[Angular/TypeScript] Jeu du pendu
+
+Site web réalisé dans le cadre de tests techniques, voici le déroulement d'une partie :
+
+* La partie est automatiquement démarré au chargement de la page.
+* Le jeu choisit aléatoirement le mot à trouver parmis une liste que vous aurez créé.
+* Le jeu doit afficher le nombre de lettres du mot sous forme d'espace à remplir (cf. mockups).
+* Le joueur doit deviner le mot.
+* Il peut choisir une lettre, si cette lettre est présente dans le mot, elle est ajouté sur les espaces correspondants.
+* Si la lettre n'existe pas, il perd un essai.
+* Après 10 essais ratés, le joueur a perdu la partie.
+
+## Installation du repository
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
@@ -13,14 +26,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
