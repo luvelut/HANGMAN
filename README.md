@@ -1,4 +1,4 @@
-# THE-RIGHT-CORNER
+# HANGMAN
 [Angular/TypeScript] Jeu du pendu
 
 Site web réalisé dans le cadre de tests techniques, voici le déroulement d'une partie :
