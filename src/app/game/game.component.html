@@ -1,0 +1,23 @@
+<div class="wrapper">
+	<div class='score'>
+		<p>{{ try }}/10</p>
+	</div>
+
+	<div class="game">
+		<div id='word'>
+		    <span *ngFor="let letter of wordTab">{{letter.isFound ? letter.value : "_"}}</span>
+		</div>
+
+		<form [formGroup]="form" (ngSubmit)="onSubmit()">
+			<input id="word-input" formControlName="wordInput" placeholder="Essayer un mot">
+			<input type="submit" value="Valider">
+		</form>
+
+		<div id='keyboard'>
+			<button type="button" *ngFor="let letter of alpha" (click)="onClick(letter)" [class.green]="letter.isFound" [class.red]="letter.isFound == false"
+			[disabled]="letter.isFound != null">	
+				{{letter.value}}
+			</button>
+		</div>
+	</div>	
+</div>

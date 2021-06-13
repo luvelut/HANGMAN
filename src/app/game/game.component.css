@@ -1,0 +1,49 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.score {
+	font-size: 5em;
+	grid-column: 1 / 2;
+}
+
+.game {
+  grid-column: 2 / 2;
+}
+
+#keyboard {
+	width: 50%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+#keyboard button {
+	font-size : 2em;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+#word {
+	font-size: 3em;
+}
+
+#word span{
+	margin-left: 2%;
+}
+
+#word-input {
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+.green {
+	background-color : green;
+}
+
+.red {
+	background-color : red;
+	text-decoration: line-through; 
+}

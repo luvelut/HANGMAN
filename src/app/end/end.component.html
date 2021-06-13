@@ -1,0 +1,5 @@
+<div class="modal-div">
+	<p>Vous avez {{data.isWin ? 'gagné !' : "perdu :("}}</p>
+	<p *ngIf="!data.isWin">Le mot était : {{data.word}}</p>
+	<button (click)="close()">Rejouer</button>
+</div>
