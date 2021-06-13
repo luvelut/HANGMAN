@@ -3,8 +3,8 @@
 
 Site web réalisé dans le cadre de tests techniques, voici le déroulement d'une partie :
 
-* La partie est automatiquement démarré au chargement de la page.
-* Le jeu choisit aléatoirement le mot à trouver parmis une liste que vous aurez créé.
+* La partie est automatiquement démarrée au chargement de la page.
+* Le jeu choisit aléatoirement le mot à trouver parmis une liste que vous aurez créée.
 * Le jeu doit afficher le nombre de lettres du mot sous forme d'espace à remplir (cf. mockups).
 * Le joueur doit deviner le mot.
 * Il peut choisir une lettre, si cette lettre est présente dans le mot, elle est ajouté sur les espaces correspondants.
